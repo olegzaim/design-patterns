@@ -23,9 +23,9 @@ public class Main {
         athlete.subscribe(viewer3);
 
         coach.setCommand(standUpCommand);
-        athlete.setExercise(coach.sayExercise());
+        athlete.doExercise(coach.sayExercise());
 
         coach.setCommand(lieDownCommand);
-        athlete.setExercise(coach.sayExercise());
+        athlete.doExercise(coach.sayExercise());
     }
 }

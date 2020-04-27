@@ -34,8 +34,9 @@ public class Athlete implements Observable {
         return exercise;
     }
 
-    public void setExercise(String exercise) {
+    public void doExercise(String exercise) {
         this.exercise = exercise;
         this.notifyObservers();
     }
+
 }
