@@ -1,10 +1,12 @@
-import command.Coach;
-import command.Command;
-import command.Exercise;
-import command.LieDownCommand;
-import command.StandUpCommand;
-import observer.Athlete;
-import observer.Viewer;
+package exercise1;
+
+import exercise1.command.Coach;
+import exercise1.command.Command;
+import exercise1.command.Exercise;
+import exercise1.command.LieDownCommand;
+import exercise1.command.StandUpCommand;
+import exercise1.observer.Athlete;
+import exercise1.observer.Viewer;
 
 public class Main {
     public static void main(String[] args) {

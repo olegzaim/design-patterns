@@ -1,4 +1,4 @@
-package command;
+package exercise1.command;
 
 public class Coach {
     private Command command;

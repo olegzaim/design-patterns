@@ -1,4 +1,4 @@
-package observer;
+package exercise1.observer;
 
 public interface Observer {
     public void update();

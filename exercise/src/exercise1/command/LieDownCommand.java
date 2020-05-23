@@ -1,4 +1,4 @@
-package command;
+package exercise1.command;
 
 public class LieDownCommand implements Command {
     private Exercise exercise;
