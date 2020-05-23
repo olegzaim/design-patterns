@@ -30,7 +30,7 @@ public class Bot extends User {
         System.out.println(this.name + " receives: " + message);
         if (message.equals("cat")) {
             mediator.removeUser(senderName);
-            send(" User with name '" + senderName + "' was kicked from the chat, 'cat' is a forbidden word in this room!");
+            send(" User with name '" + senderName + "' was kicked from the room, 'cat' is a forbidden word in this chat!");
         }
     }
 }
